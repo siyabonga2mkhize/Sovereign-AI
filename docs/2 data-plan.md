@@ -282,6 +282,7 @@ def vala_sula_delete(school_id):
 ---
 
 ## 📊 DATA FLOW DIAGRAM
+![Screenshot](Diagrams/Data_Flow_Plan.png)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
