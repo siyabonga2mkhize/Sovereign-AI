@@ -1,0 +1,782 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0378778825010357">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0378-7788"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>M.Sadeeq</foaf:surname>
+                        <foaf:givenName>Mohammed A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1410"/>
+        <link:link rdf:resource="#item_1409"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Anomaly detection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>CNN-LSTM</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Energy forecasting</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Energy management</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Explainable AI</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hybrid models</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>IoT</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>SHAP</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Smart campus</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Time series prediction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>XDL-energy: Explainable hybrid deep learning framework for smart campus energy forecasting and anomaly justification using the DPU-ALDOSKI dataset</dc:title>
+        <dcterms:abstract>Managing energy efficiently and in a way that is understandable is essential for the sustainable and intelligent operation of modern smart campuses. In this paper, we introduce XDL-Energy, a novel framework that combines a hybrid Convolutional Neural Network–Long Short-Term Memory (CNN-LSTM) model with SHapley Additive exPlanations (SHAP) to deliver both high-accuracy energy consumption forecasting and interpretable anomaly detection. The model is trained on the real-world DPU-ALDOSKI dataset, which contains over 3 million multi-sensor IoT records from distributed campus buildings. By fusing CNN’s spatial pattern recognition with LSTM’s temporal sequence modeling, the framework captures complex energy behaviors across time and space. SHAP analysis reveals key drivers of predictions, such as temperature, motion, and humidity, offering both global and local interpretability. Experimental results demonstrate that XDL-Energy achieves robust performance (MAE: 0.045, RMSE: 0.062, MAPE: 4.8%) and reliably flag anomalies using dynamic rolling thresholds. Additional evaluations including ablation studies, SHAP dependence plots, and multiple anomaly case analyses confirm the system’s practical relevance. XDL-Energy bridges the gap between deep learning and transparency, making it a deployable and trustworthy solution for smart campus energy management.</dcterms:abstract>
+        <dc:date>2025-11-15</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0378778825010357</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:07:30</dcterms:dateSubmitted>
+        <z:shortTitle>XDL-energy</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <bib:pages>116305</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0378-7788">
+        <dc:identifier>DOI 10.1016/j.enbuild.2025.116305</dc:identifier>
+        <prism:volume>347</prism:volume>
+        <dc:title>Energy and Buildings</dc:title>
+        <dc:identifier>ISSN 0378-7788</dc:identifier>
+        <dcterms:alternative>Energy and Buildings</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1410">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1410/M.Sadeeq - 2025 - XDL-energy Explainable hybrid deep learning framework for smart campus energy forecasting and anoma.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/271089/1-s2.0-S0378778825X00190/1-s2.0-S0378778825010357/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLWVhc3QtMSJIMEYCIQDIaIOviotbThfSqtqoRDHDz6Ahe5iNJfRmMSQERVn6GAIhAKFz9PnAUVA02zE9uNyR0ZhmSnLLNkWR55LWb%2BaNo0nCKrMFCEQQBRoMMDU5MDAzNTQ2ODY1Igx65mUebK0bqRqgtI8qkAXjrk3b1Ab7W%2BEwurntkjuYqANlWZu78%2FwATMGRY9wEXwPN3B1rih%2FzYiSEBiCIXA6WxvhBCfv7jqUmYAY1vE%2Fh%2FZITUefAJe7tSQ0q4uxHxmxJcBZBPAaqkBlZjh37agJawruCBMRkXlwXh0HUNFk2cqKdfnmVhA0Nr9aXhipkNeKOZlhhYlRkPSX3itN3jhWKZtnxPCcKCPElecg3loPPDRYodEOPRHH0r19ZQe2S2dKdUn%2Bxdjof9xFhMY0TB%2BgC70W8jBA3s%2FYjbYS5O5H2mQhbntQO8w35HzKUcHLZ%2BRSMaR2g7axiYi3gAIbOwi8rruQSUfo1xGY8VYhvkBl9gkuHq7PMTyyFBI4nXyUDhCQUQnZiqqfHklovRElf4PYOk9WRB5hIZAYFLcw8FtDF%2FVVtCUM00JdRPEhmZ1t14MxaOlAMtYwvmauPPhjgayRWOBTe1L8rBoFhWgRADf%2FVOIwsOxKIOyvivnkZIHE2u11%2FWLKs2ZGTL0em%2FiMAq1GSYdpRMcPg9M3GCy7VjZ%2F7GVUBy1fSYOoV0QbgQrltHQ%2FjnUL%2FqWeG1Zdf9Cga8n5LjH9p1rl22imERfBX0FaLlPW4rju89v%2FAtTOvpjGgpkTH5nf2iIZg%2BmlV62TIRXbPKLNzx9VOPCfcc3O%2F6IRHpHKukiYv3O8uWaoBXn23UcauOP7vq8avZ9%2FpzgzNt3Z9pdAfHMc6pHyI4zOiKkN9s3ygrTd90aqrCzP7kjfYrk4kWRpOTDFICHKBxrqCj58%2FGe%2B3JubHpnsNns1h%2FyzkOFE0%2BxkVYEZJmM6foG2GTVKgiRVHbu9oOMHlc1mDefbrwBfkIurK%2FnmbuJTzeQBx5%2FoOOa9WaENybQvn%2B8puAzCj5uLSBjqwAcVZYEZo0E0VKSy%2B1S7CwnzeWPTqukJoSMNRCJ2jCL1ZNagEq5iNQPXhsGbuamGOzGXX5ACo6tFqBepWrpy1iVrVHUSyS4Pvyn9eLY%2FZlYqK%2FiLQOd1kCUO%2B9S4Kyc0zzvJSfNI7Gxq9MQyb5l8utoA7%2BviXjin5%2BA2QTPvw6uWy6W872bt0xGCsarbdxh5kFV%2BXjTjOm8O%2F5xC1l5NIK5atUWBKjl1yOUqGMEtKCQCy&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260716T110739Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYQF65ZNZQ%2F20260716%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=c9e52640140b6fc6aa4e05878205541e3e99849c53a84f2ebd1c3c0fbb893e23&amp;hash=b656dba336c4cd28f7aebafdb611fc29df28b61c47c79d873642fda6e4cb45ef&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0378778825010357&amp;tid=spdf-ff73191c-3b48-4122-9a3e-4a5eae1d37e2&amp;sid=d6da4fa0550cf34fd358dbc-a5684a0fe3a1gxrqa&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=1c01045602515d05555a&amp;rr=a1c08b6488a0f17a&amp;cc=za</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:08:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1409">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1409/S0378778825010357.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0378778825010357</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:07:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1134/S1064562422060230">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1531-8362"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Budennyy</foaf:surname>
+                        <foaf:givenName>S. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazarev</foaf:surname>
+                        <foaf:givenName>V. D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zakharenko</foaf:surname>
+                        <foaf:givenName>N. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Korovin</foaf:surname>
+                        <foaf:givenName>A. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plosskaya</foaf:surname>
+                        <foaf:givenName>O. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dimitrov</foaf:surname>
+                        <foaf:givenName>D. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akhripkin</foaf:surname>
+                        <foaf:givenName>V. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pavlov</foaf:surname>
+                        <foaf:givenName>I. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oseledets</foaf:surname>
+                        <foaf:givenName>I. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barsola</foaf:surname>
+                        <foaf:givenName>I. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Egorov</foaf:surname>
+                        <foaf:givenName>I. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kosterina</foaf:surname>
+                        <foaf:givenName>A. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhukov</foaf:surname>
+                        <foaf:givenName>L. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1412"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>AI</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>carbon footprint</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>CO2 emissions</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ecology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ESG</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>GHG</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>sustainability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>eco2AI: Carbon Emissions Tracking of Machine Learning Models as the First Step Towards Sustainable AI</dc:title>
+        <dcterms:abstract>The size and complexity of deep neural networks used in AI applications continue to grow exponentially, significantly increasing energy consumption for training and inference by these models. We introduce an open-source package eco2AI to help data scientists and researchers to track the energy consumption and equivalent CO2 emissions of their models in a straightforward way. In eco2AI we focus on accurate tracking of energy consumption and regional CO2 emissions accounting. We encourage the research for community to search for new optimal Artificial Intelligence (AI) architectures with lower computational cost. The motivation also comes from the concept of AI-based greenhouse gases sequestrating cycle with both Sustainable AI and Green AI pathways. The code and documentation are hosted on Github under the Apache 2.0 license https://github.com/sb-ai-lab/Eco2AI.</dcterms:abstract>
+        <dc:date>2022-12-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1134/S1064562422060230</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:08:46</dcterms:dateSubmitted>
+        <z:shortTitle>eco2AI</z:shortTitle>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>S118-S128</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1531-8362">
+        <dc:identifier>DOI 10.1134/S1064562422060230</dc:identifier>
+        <prism:volume>106</prism:volume>
+        <dc:title>Doklady Mathematics</dc:title>
+        <dc:identifier>ISSN 1531-8362</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Dokl. Math.</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1412">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1412/Budennyy et al. - 2022 - eco2AI Carbon Emissions Tracking of Machine Learning Models as the First Step Towards Sustainable A.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1134%2FS1064562422060230.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:09:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S2352484723016384">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2352-4847"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luna-Romero</foaf:surname>
+                        <foaf:givenName>Santiago Felipe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Serrano-Guerrero</foaf:surname>
+                        <foaf:givenName>Xavier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Souza</foaf:surname>
+                        <foaf:givenName>Mauren Abreu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Escrivá-Escrivà</foaf:surname>
+                        <foaf:givenName>Guillermo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1415"/>
+        <link:link rdf:resource="#item_1414"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Anomaly detection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Building energy efficiency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational intelligence method</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Electrical energy consumption</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Energy consumption patterns</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Zero energy buildings</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Enhancing anomaly detection in electrical consumption profiles through computational intelligence</dc:title>
+        <dcterms:abstract>The advancement of society and the raising of people's standards of living depend heavily on electricity in today's world. The &quot;zero energy buildings&quot; idea, which recommends that buildings become self-sufficient in renewable energy to prevent the emission of CO2 into the environment, is now one of the most significant initiatives connected to building energy efficiency. This article describes a computational intelligence method to detect anomalous variations in a facility's energy use and infer a potential cause of such changes. The model is built using five sets of historical power consumption data from three buildings spread across four nations (Ecuador, Spain, France, and Canada), which are categorized based on the anomaly type each piece of data represents. Through a statistical study of the confidence interval, the proposed method, first determines the consumption patterns for each day of the week in each of the building's data sets. After normalizing the day to be studied toward its &quot;Z&quot; value, it is then cataloged using a machine learning model. The proposed method is evaluated in comparison to a purely statistical method called SAEEC methodology and it is discovered that the proposed method offers a relative improvement in accuracy, false positive rate (FPR), and false negative rate (FNR) of 12.41%, 42, 36%, and 42.45%, respectively, for the detection of atypical values in electrical energy consumption.</dcterms:abstract>
+        <dc:date>2024-06-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2352484723016384</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:09:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <bib:pages>951-962</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2352-4847">
+        <dc:identifier>DOI 10.1016/j.egyr.2023.12.045</dc:identifier>
+        <prism:volume>11</prism:volume>
+        <dc:title>Energy Reports</dc:title>
+        <dc:identifier>ISSN 2352-4847</dc:identifier>
+        <dcterms:alternative>Energy Reports</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1415">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1415/Luna-Romero et al. - 2024 - Enhancing anomaly detection in electrical consumption profiles through computational intelligence.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/311225/1-s2.0-S2352484723X00134/1-s2.0-S2352484723016384/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLWVhc3QtMSJGMEQCICiwco%2BizB1eTFXLuiIXjGs5Nxktg4WOln2UhoXmueD7AiBDIhS4VEzBtaIbftoY6DuMEeI7FvIiuMhrN0ALWMNoriqxBQhEEAUaDDA1OTAwMzU0Njg2NSIMSRJzAclOofcxTeAbKo4FbAyPb7N%2BdlCdFgE3chP%2Bm2kzFIMe8FbvCgXQ8EIsSnnlCEsfYlAlPJnVtNmkBZP9PFjKcKXvcbGNw4Sx%2BkoPfYbc%2BuQ1PTFBuWYedov6tACKRoiRJp3OpTb2K7M4OjY6NN39n2DUbEGPaDU39bdzFVTV%2FJe6h0Sf1dLIVWqZo%2Ba3IMNHo4avuDpOmWjKDirqt1UESLvA84bW378JFgyjn20alYEluoa5te%2FhYyTj4OPxnyvBaLpxaxQn3u4APkD90y8qC4NcZBd1lcPj985KvKKHJBxhmgvXx54GGFMA7bwDg0UxkBaMAl5xcgGtJXa8i4eCa3FPQaxKFCUUMnBVYGGlxBZCcC4puROoemfzcnwDO2geayKTNJTX5S%2B4laOaBe3nmB%2BQ7r90S3Qbr7Y8yMqtr%2BPpAaTIkUmUexUEAZ1RgGkesM3xf5xp92YUTj3yjB3xdppzeqI0rhoe8FTplWi8R0wGaFkuzm%2F4YfoqU1O4qIUZ1Ag4R1vwGqonwBvbtkEHrE6VePIIwvfxw46CVjST2Idn6R410xQwtYx8PGMA6XMJl%2FVvCP7lFQev3WS8HkLXDSTRBm9ykLeKFGVKkf8YH3vL2OJlGri6rCkM0FUVB536O7R7EemHtPT56yeNwvJVyh6kj6y0lylCqDNWtEOtL8%2FQeYRiBfHzdA4WO%2FBWuVAo1%2BSMb4yd3Sv3b4xTMrfvd9jmKZv9FJqitWwYoRrhUqPjuu7fmZ6%2FmqkzrIkf43KwQenZndszHhH6F3h1jSzskn7xTS4AdTOWxwmqyUSQqbnY5Hz4Ym5R11z03IOglqIc759084uRAr%2BU07pGn8Z%2FoDn16ThEEN7wnFonfbj41bUBTN%2BoqrkntSDuMJLn4tIGOrIBnuy7nXsLKf55Zk%2F0B%2Bff5npJSQBjSzwL5BLV8a2S6DFsfNMLZ%2FDbY2OoAjwHGGI9L%2Fl6yCiG%2FXtF1zVarOoLxFqGu%2BNk3qN2OEYdRkmgYUy%2Fo961l%2FKwqsuZOI13gNhuk7ZYjBZkiwDdCK3XWE98VVKg9PZroxr7Bfum7Yphdcg0sxFrZIULwHTqS7sCJm0hh%2BIM9XShTNBtpwGLQkkFKaJO718zuW6U9fFaywI7uW91og%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20260716T110948Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYUG32HAPB%2F20260716%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=63bbc00a5b8885010147c6cdec18cfd15bcfa14524426ec414482179acb49a9e&amp;hash=f7e638a37a84a6d0a35ed415125bee0e35894d9aee85eddba599ddcfdb115470&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S2352484723016384&amp;tid=spdf-0d84cfbc-2722-449e-a7a6-701756ca7e0e&amp;sid=d6da4fa0550cf34fd358dbc-a5684a0fe3a1gxrqa&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=1c01045602515d025b0c&amp;rr=a1c08e8b395ef17a&amp;cc=za</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:09:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1414">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1414/S2352484723016384.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2352484723016384</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:09:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ieeexplore.ieee.org/abstract/document/11012908">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Sensorless Power Measurement for Personal Computers Using CMOS MEMS Magnetometers and Machine Learning | IEEE Conference Publication | IEEE Xplore</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/abstract/document/11012908</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:10:18</dcterms:dateSubmitted>
+    </bib:Document>
+    <rdf:Description rdf:about="#item_1417">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/ICCT-Pacific63901.2025.11012908</dc:identifier>
+                <dc:title>2025 1st International Conference on Consumer Technology (ICCT-Pacific)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tavakkoli</foaf:surname>
+                        <foaf:givenName>Hadi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lai</foaf:surname>
+                        <foaf:givenName>Shing Kai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Wenhao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fang</foaf:surname>
+                        <foaf:givenName>Sile</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Yi-Kuen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1418"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Central Processing Unit</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>CMOS MEMS Magnetometer</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Energy Efficiency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Magnetic cores</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Magnetometers</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Micromechanical devices</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Monitoring</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Power demand</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Power measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Real-time systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensorless Power Measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Temperature measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Temperature sensors</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Sensorless Power Measurement for Personal Computers Using CMOS MEMS Magnetometers and Machine Learning</dc:title>
+        <dcterms:abstract>We present a novel, sensorless power meter for accurate and real-time power estimation of personal computers (PCs). Our innovative system integrates CMOS MEMS magnetic field sensors with machine learning-based IoT analysis, allowing power consumption to be measured without traditional sensors. At the core of our device is a CMOS MEMS search coil magnetometer, fabricated using the TSMC 1P6M 180nm process and calibrated against a commercial power meter. Coupled with Python software that monitors GPU utilization, CPU usage, and two temperature metrics, we developed a multivariate nonlinear regression (MNR) model with 59 terms to predict power consumption. After an initial training phase, our system can measure the power consumption of any PC sensorlessly, achieving less than a 2.95% discrepancy in average power measurements over 20 minutes. This scalable approach facilitates deployment across multiple PCs or servers in data centers, enabling real-time power reporting and carbon footprint calculations. By efficiently monitoring power usage in diverse computing environments, our method significantly enhances energy management and sustainability efforts.</dcterms:abstract>
+        <dc:date>2025-03</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/abstract/document/11012908</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:11:19</dcterms:dateSubmitted>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <bib:pages>1-4</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2025 1st International Conference on Consumer Technology (ICCT-Pacific)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1418">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1418/Tavakkoli et al. - 2025 - Sensorless Power Measurement for Personal Computers Using CMOS MEMS Magnetometers and Machine Learni.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=11012908&amp;ref=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:11:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://perjournal.co.za/article/view/15234">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1727-3781"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coetzee</foaf:surname>
+                        <foaf:givenName>Juana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1420"/>
+        <dc:title>Cross-Border Data Flows and the Protection of Personal Information Act 4 of 2013 – Part II: The Data Transfer Provision</dc:title>
+        <dcterms:abstract>The Protection of Personal Information Act 4 of 2013 (POPIA) was introduced to protect the right to privacy of the South African data subject. The Act prescribes obligations that a responsible party must fulfil to achieve this purpose. However, personal information is very often collected and processed by responsible parties who are outside the Republic. Alternatively personal information is collected by a responsible party in the Republic and then transferred out of the country. Part I of this article discussed the territorial scope provision (section 3) and concluded that it can give rise to interpretative uncertainties with the result that personal information processed by responsible parties outside the Republic would not be covered by the Act. However, responsible parties often move their processing activities out of the country to escape liability. This part of the article analyses the data transfer provision (section 72), a provision that is directed at the regulation of the transfer of data outside the Republic. Section 72 lays down certain conditions before a responsible party can export data out of the Republic to a third party. The discussion will show that the provision has certain shortcomings which could limit its effectiveness in providing the necessary protection if compared to its counterpart in the EU General Data Protection Regulation (GDPR). Consequently, legislative revision or clarification by the Information Regulator in the form of a Guidance Note would be welcomed. The article concludes with a brief analysis of the interplay between sections 3 and 72 to illustrate the need for both these provisions in our law.</dcterms:abstract>
+        <dc:date>2024-11-07</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://perjournal.co.za/article/view/15234</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:12:10</dcterms:dateSubmitted>
+        <z:shortTitle>Cross-Border Data Flows and the Protection of Personal Information Act 4 of 2013 – Part II</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1727-3781">
+        <dc:identifier>DOI 10.17159/1727-3781/2024/v27i0a15234</dc:identifier>
+        <prism:volume>27</prism:volume>
+        <dc:title>Potchefstroom Electronic Law Journal</dc:title>
+        <dc:identifier>ISSN 1727-3781</dc:identifier>
+        <dcterms:alternative>PER</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1420">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1420/Coetzee - 2024 - Cross-Border Data Flows and the Protection of Personal Information Act 4 of 2013 – Part II The Data.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://perjournal.co.za/article/download/15234/23208</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:12:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journals.co.za/doi/10.7196/SAJBL.2024.v17i1.1696">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.7196/SAJBL.2024.v17i1.1696</dc:identifier>
+                <prism:volume>17</prism:volume>
+                <dc:title>South African Journal of Bioethics and Law</dc:title>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>South African Medical Association NPC</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdulrauf</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adaji</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ojibara</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1422"/>
+        <dc:title>Clarifying the legal requirement for cross-border sharing of health data in POPIA: Recommendations on the draft Code of Conduct for Research</dc:title>
+        <dcterms:abstract>The draft Code of Conduct for Research is an important initiative towards assisting the scientific community in complying with the provisions of the Protection of Personal Information Act 4 of 2013 (POPIA). However, its approach towards cross-border data sharing should be reconsidered to clarify the ambiguities inherent in the legal requirements for the cross-border sharing of health data in the POPIA. These ambiguities include the concept of ‘transfer of information’, the application of adequacy as a legal mechanism for transfer, the nature of consent for cross-border sharing and the scope of the recipient third party. We suggest that the draft Code of Conduct for Research can be improved by:
+Explaining or defining the concept of ‘transfer of information’ and when it applies to cross-border sharing in researchClarifying the application of adequacy as a legal mechanism for transfer vis-à-vis the other alternativesExpanding on the interpretation and application of consent as a legal mechanism for cross-border transfersExpanding the category of persons who may be recipients of personal information in a third country</dcterms:abstract>
+        <dc:date>2024-04</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.co.za/doi/10.7196/SAJBL.2024.v17i1.1696</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:13:04</dcterms:dateSubmitted>
+        <z:shortTitle>Clarifying the legal requirement for cross-border sharing of health data in POPIA</z:shortTitle>
+        <z:libraryCatalog>journals.co.za (Atypon)</z:libraryCatalog>
+        <bib:pages>44-48</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1422">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1422/Abdulrauf et al. - 2024 - Clarifying the legal requirement for cross-border sharing of health data in POPIA Recommendations o.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.co.za/doi/pdf/10.7196/SAJBL.2024.v17i1.1696</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:13:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://hdl.handle.net/10222/77784">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anderson</foaf:surname>
+                        <foaf:givenName>Sean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowley</foaf:surname>
+                        <foaf:givenName>Ainslie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gorman</foaf:surname>
+                        <foaf:givenName>Julie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McIsaac</foaf:surname>
+                        <foaf:givenName>Dianne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Kathryn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thomson</foaf:surname>
+                        <foaf:givenName>Christie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1424"/>
+        <dc:title>Shut off and Save: An Analysis of Energy Use and Environmental Impact of Dalhousie Studley Campus Computers</dc:title>
+        <dcterms:abstract>Fossil fuel emissions are currently described as the main cause of global warming. This is a result of energy use and is of particular concern when energy is wasted, therefore results in unnecessary emissions. This study focused on energy waste on Dalhousie University campus pertaining to computers left idle in the Marion McCain Arts and Social Science student computer labs. Four research methods were utilized; literature review, interviews, observations and student surveys. Observations over a two week period indicated that 71% of the computers were left on and not used by students. This resulted in the combustion of 7.92-19.80 metric tons of coal and the emission of 20.49-51.23 metric tons of CO2, 49.91-124.76 kg of SO2 and 50.90-127.26 kg of NO2. As well, it is costing Dalhousie University between $1396.14 and $3490.35 per eight month academic term. Student surveys indicated that students would be willing to turn the computers off after each use and this would not alter their time spent in the labs. As well, students believed that leaving computers idle was harmful to the environment. Recommendations to Dalhousie University included a “shut-off” program where the start menu would only allow students to “shut-off” in order to exit their user account. Decreasing the number of computers made available to the students during weekends and non-peak hours by closing certain computer labs was also suggested. Suggested areas for future research included an expanded observation period to include the summer and the exam periods, as well as the comparison of labs across campus. Further research into computer technology regarding “shut-off” and energy saving software is advised. Finally, measurements regarding the quantity of energy consumed by idle computers should be further investigated to increase the validity of the study.</dcterms:abstract>
+        <dc:date>2005-04</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://hdl.handle.net/10222/77784</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:16:46</dcterms:dateSubmitted>
+        <z:shortTitle>Shut off and Save</z:shortTitle>
+        <z:language>en</z:language>
+        <z:libraryCatalog>dal.scholaris.ca</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1424">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1424/Anderson et al. - 2005 - Shut off and Save An Analysis of Energy Use and Environmental Impact of Dalhousie Studley Campus Co.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dal.scholaris.ca/bitstreams/fd8797b7-a434-485a-b7e9-171b6d25bbb7/download</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:16:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://lelapa.ai/blog/how-well-do-llms-understand-your-home-language">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shikwambane</foaf:surname>
+                        <foaf:givenName>Nhlawulo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>How Well Do Large Language Models Understand Your Home Language? The Data Says: Unevenly.</dc:title>
+        <dcterms:abstract>Multilingual language models often claim support for hundreds of languages, but how well do they actually perform in low-resource ones? AFROBENCH evaluates multilingual NLP systems across 64 African languages, 15 tasks, and 22 datasets, revealing a clear performance gap driven by uneven language data and digital representation.</dcterms:abstract>
+        <dc:date>April 30, 2026</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://lelapa.ai/blog/how-well-do-llms-understand-your-home-language</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:19:00</dcterms:dateSubmitted>
+        <z:shortTitle>How Well Do Large Language Models Understand Your Home Language?</z:shortTitle>
+        <z:language>en</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="https://staging.lelapa.ai/vulavula">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Vulavula — Multilingual Speech-to-Text &amp; Translation | Lelapa AI</dc:title>
+        <dcterms:abstract>Transcribe and translate multilingual African language calls with Vulavula. Real-time and batch speech-to-text built for high-volume contact centres in telcos and financial services.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://staging.lelapa.ai/vulavula</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:19:13</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.assaf.org.za/wp-content/uploads/2024/02/ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1425"/>
+        <dc:title>ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.assaf.org.za/wp-content/uploads/2024/02/ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:17:29</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1425">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1425/ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.assaf.org.za/wp-content/uploads/2024/02/ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-16 11:17:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_11">
+        <dc:title>Journal Articles &amp; Conference Papers</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.sciencedirect.com/science/article/pii/S0378778825010357"/>
+        <dcterms:hasPart rdf:resource="https://doi.org/10.1134/S1064562422060230"/>
+        <dcterms:hasPart rdf:resource="https://www.sciencedirect.com/science/article/pii/S2352484723016384"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/abstract/document/11012908"/>
+        <dcterms:hasPart rdf:resource="#item_1417"/>
+        <dcterms:hasPart rdf:resource="https://perjournal.co.za/article/view/15234"/>
+        <dcterms:hasPart rdf:resource="https://journals.co.za/doi/10.7196/SAJBL.2024.v17i1.1696"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_12">
+        <dc:title>Reports &amp; Theses</dc:title>
+        <dcterms:hasPart rdf:resource="http://hdl.handle.net/10222/77784"/>
+        <dcterms:hasPart rdf:resource="https://www.assaf.org.za/wp-content/uploads/2024/02/ASSAf-Communication-to-Stakeholders-regarding-the-Framework_February-2024.pdf"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_13">
+        <dc:title>Technical Documentation</dc:title>
+        <dcterms:hasPart rdf:resource="https://lelapa.ai/blog/how-well-do-llms-understand-your-home-language"/>
+        <dcterms:hasPart rdf:resource="https://staging.lelapa.ai/vulavula"/>
+    </z:Collection>
+</rdf:RDF>
